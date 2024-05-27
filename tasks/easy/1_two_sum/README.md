@@ -1,0 +1,1 @@
+![Alt text](/tasks/easy/1_two_sum/screenshots/1.png?raw=true "1. Two Sum")
