@@ -1,20 +1,19 @@
-package main
+package twosum
 
 import "testing"
 
-func TestReverseRunes(t *testing.T) {
-    cases := []struct {
-        in []int;
-		target int;
-		want []int
-    }{
-        {[]int{2,7,11,15}, 9, []int{0,1}},
-        {[]int{3,2,4}, 6, []int{1,2}},
-        {[]int{3,3}, 6, []int{0,1}},
-    }
-    for _, c := range cases {
-        got := twoSum(c.in, c.target)
-		println("got", got)
+func TestTwoSums(t *testing.T) {
+	cases := []struct {
+		in     []int
+		target int
+		want   []int
+	}{
+		{InputArrays[0], Targets[0], []int{0, 1}},
+		{InputArrays[1], Targets[1], []int{1, 2}},
+		{InputArrays[2], Targets[2], []int{0, 1}},
+	}
+	for _, c := range cases {
+		got := twoSum(c.in, c.target)
 		if got == nil {
 			t.Errorf("Result is nil")
 		}
@@ -23,5 +22,5 @@ func TestReverseRunes(t *testing.T) {
 				t.Errorf("Input %v, target %v, expected indicies %v, but result is %v", c.in, c.target, c.want, got)
 			}
 		}
-    }
+	}
 }
