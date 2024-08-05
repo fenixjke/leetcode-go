@@ -4,7 +4,7 @@ import "leetcode-go/common"
 
 type S struct{}
 
-var option string
+var option string = "straight"
 
 func New() common.TaskRunner {
 	return &common.Info{
