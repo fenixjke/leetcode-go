@@ -1,7 +1,6 @@
-package twosum
+package task
 
 import (
-	"fmt"
 	"leetcode-go/common"
 	"testing"
 )
@@ -21,10 +20,6 @@ func TestAddTwoNumbers(t *testing.T) {
 		if got == nil {
 			t.Errorf("Result is nil")
 		}
-		fmt.Printf("L1: %v\n", c.l1)
-		fmt.Printf("L2: %v\n", c.l2)
-		fmt.Printf("Want: %v\n", c.want)
-		fmt.Printf("Got: %v\n", got)
 		for c.want != nil || got != nil {
 			if c.want == nil {
 				t.Errorf("Not expected value in result: %v", got)

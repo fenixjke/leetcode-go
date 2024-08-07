@@ -1,4 +1,4 @@
-package twosum
+package task
 
 import "leetcode-go/common"
 

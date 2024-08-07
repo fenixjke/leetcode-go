@@ -1,4 +1,4 @@
-package twosum
+package task
 
 var InputArrays [][]int = [][]int{
 	{2, 7, 11, 15},
