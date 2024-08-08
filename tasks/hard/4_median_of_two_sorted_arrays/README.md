@@ -1,0 +1,2 @@
+![Alt text](/tasks/hard/4_median_of_two_sorted_arrays/1.png?raw=true "4. Median of Two Sorted Arrays")
+![Alt text](/tasks/hard/4_median_of_two_sorted_arrays/2.png?raw=true "4. Median of Two Sorted Arrays")
