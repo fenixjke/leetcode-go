@@ -5,6 +5,7 @@ import (
 	task4 "leetcode-go/tasks/hard/4_median_of_two_sorted_arrays"
 	task2 "leetcode-go/tasks/medium/2_add_two_numbers"
 	task3 "leetcode-go/tasks/medium/3_longest_substring_without_repeating_characters"
+	task5 "leetcode-go/tasks/medium/5_longest_palindromic_substring"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 	task2.New().Run("")
 	task3.New().Run("")
 	task4.New().Run("")
+	task5.New().Run("")
 }

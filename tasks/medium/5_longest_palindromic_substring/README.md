@@ -1,0 +1,1 @@
+![Alt text](/tasks/medium/5_longest_palindromic_substring/1.png?raw=true "5. Longest Palindromic Substring")

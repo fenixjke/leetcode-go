@@ -1,0 +1,19 @@
+package task
+
+var input = []string{
+	"babad",
+	"cbbd",
+	"bbbbb",
+	"qwertfftrewq",
+	"sfgdflrermv",
+	"121314151617181910989796959493929123242526272829878685848p384546474865qwqeqrqtqyquqiqoqpqaqsqdqfqgqhqjqkqlqzqxqcqvqbqnqmwewrwtwywuwiwowpwawswdwfwgwhhhwjwkwlwzwxwcwvwbwnwmereteyeueieoepeaesedefegehejekelezexecevebenemrtryrurirorprarsrdrfrgrhrjrkrlrzrxrcrvrbrnrmtytutitotptatstdtftgthtjtktltztxtctvtbtntmmyuyiyoypyaysydyfygyhyjykylyzyxycyvybynymuiuoupuausudufuguhujukuluzuxucuvubunumioipiaisidifigihijikilizixicivibinimopoaosodofogohojokolozoxocovobonompapspdpfpgphpjpkplpzpxpcpvpbpnpmasadafagahajakalazaxacavabanamsdsfsgshsjskslszsxscsvsbsnsmdfdgdhdjdkdldzdxdcdvdbdndmfgfhfjfkflfzfxfcfvfbfnfmghgjgkglgzgxgcgvgbgngmhjhkhlhzhxhchvhbhnhmjkjljzjxjcjvjbjnjmklkzkxkckvkbknkmlzlxlclvlblnlmzxzczvzbznzmxcxvxbxnxmcvcbcncmvbvnvmbnnm",
+}
+
+var expects = []string{
+	"bab",
+	"bb",
+	"bbbbb",
+	"qwertfftrewq",
+	"rer",
+	"whhhw",
+}

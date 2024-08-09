@@ -8,11 +8,11 @@ import (
 type S struct{}
 type Arr []int
 
-var option string = "straight"
+var option string = "binary-search"
 
 func New() common.TaskRunner {
 	return &common.Info{
-		Options:  []string{"straight"},
+		Options:  []string{"binary-search"},
 		TaskName: "Median of Two Sorted Arrays",
 		Runner:   &S{},
 	}
