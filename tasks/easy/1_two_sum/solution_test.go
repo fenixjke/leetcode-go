@@ -2,7 +2,7 @@ package task
 
 import "testing"
 
-func TestTwoSums(t *testing.T) {
+func Test(t *testing.T) {
 	cases := []struct {
 		in     []int
 		target int

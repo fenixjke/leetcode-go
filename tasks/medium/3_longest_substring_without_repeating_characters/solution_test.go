@@ -9,7 +9,7 @@ type TestCase struct {
 	want int
 }
 
-func TestAddTwoNumbers(t *testing.T) {
+func Test(t *testing.T) {
 	var cases []TestCase
 	for i := 0; i < len(input); i++ {
 		cases = append(cases, TestCase{

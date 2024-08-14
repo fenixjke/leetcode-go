@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestAddTwoNumbers(t *testing.T) {
+func Test(t *testing.T) {
 	cases := []struct {
 		l1   *common.ListNode
 		l2   *common.ListNode
