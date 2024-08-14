@@ -7,6 +7,7 @@ import (
 	task3 "leetcode-go/tasks/medium/3_longest_substring_without_repeating_characters"
 	task5 "leetcode-go/tasks/medium/5_longest_palindromic_substring"
 	task6 "leetcode-go/tasks/medium/6_zigzag_conversion"
+	task7 "leetcode-go/tasks/medium/7_reverse_integer"
 )
 
 func main() {
@@ -15,5 +16,6 @@ func main() {
 	task3.New()
 	task4.New()
 	task5.New()
-	task6.New().Run("")
+	task6.New()
+	task7.New().Run("")
 }
