@@ -1,0 +1,1 @@
+![Alt text](/tasks/easy/9_palindrome_number/screenshots/1.png?raw=true "9. Palindrome Number")

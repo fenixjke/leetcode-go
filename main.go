@@ -2,6 +2,7 @@ package main
 
 import (
 	task1 "leetcode-go/tasks/easy/1_two_sum"
+	task9 "leetcode-go/tasks/easy/9_palindrome_number"
 	task4 "leetcode-go/tasks/hard/4_median_of_two_sorted_arrays"
 	task2 "leetcode-go/tasks/medium/2_add_two_numbers"
 	task3 "leetcode-go/tasks/medium/3_longest_substring_without_repeating_characters"
@@ -19,5 +20,6 @@ func main() {
 	task5.New()
 	task6.New()
 	task7.New()
-	task8.New().Run("")
+	task8.New()
+	task9.New().Run("")
 }
