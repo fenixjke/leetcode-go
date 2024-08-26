@@ -5,6 +5,7 @@ import (
 	task9 "leetcode-go/tasks/easy/9_palindrome_number"
 	task10 "leetcode-go/tasks/hard/10_regular_expression_matching"
 	task4 "leetcode-go/tasks/hard/4_median_of_two_sorted_arrays"
+	task11 "leetcode-go/tasks/medium/11_container_with_most_water"
 	task2 "leetcode-go/tasks/medium/2_add_two_numbers"
 	task3 "leetcode-go/tasks/medium/3_longest_substring_without_repeating_characters"
 	task5 "leetcode-go/tasks/medium/5_longest_palindromic_substring"
@@ -23,5 +24,6 @@ func main() {
 	task7.New()
 	task8.New()
 	task9.New()
-	task10.New().Run("")
+	task10.New()
+	task11.New().Run("")
 }
