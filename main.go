@@ -1,6 +1,7 @@
 package main
 
 import (
+	task13 "leetcode-go/tasks/easy/13_roman_to_integer"
 	task1 "leetcode-go/tasks/easy/1_two_sum"
 	task9 "leetcode-go/tasks/easy/9_palindrome_number"
 	task10 "leetcode-go/tasks/hard/10_regular_expression_matching"
@@ -27,5 +28,6 @@ func main() {
 	task9.New()
 	task10.New()
 	task11.New()
-	task12.New().Run("")
+	task12.New()
+	task13.New().Run("")
 }
